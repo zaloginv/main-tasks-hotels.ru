@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "big-number": "github:alexbardas/bignumber.js"
+  }
+}
