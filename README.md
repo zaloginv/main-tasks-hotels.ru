@@ -19,9 +19,8 @@
 
 Наполнить массив объектами такого класса.
 
-Написать метод, который получает строку вида
+Написать метод, который получает строку вида:
+- “name-contains-fd&price-=2&quantity->5&description-ends-abc”
+- “name-starts-fd&quantity-=5”
 
-“name-contains-fd&price-=2&quantity->5&description-ends-abc”
-“name-starts-fd&quantity-=5”
-На выходе возвращает массив, только с подходящими объектами
-возможны (contains, starts, ends для строковых и <, =, >, <=, >= для числовых)
+На выходе возвращает массив, только с подходящими объектами. Возможны contains, starts, ends для строковых и <, =, >, <=, >= для числовых.
